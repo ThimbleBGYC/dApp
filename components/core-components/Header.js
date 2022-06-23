@@ -31,12 +31,18 @@ const Header = () => {
                 <Navbar navLinks={navLinks}/>
                 <MuiNextLink
           sx={{ textDecoration: "none", color: 'white' }}
+          href="https://boardgameyawnclub.xyz/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src="/home.jpg" width="50%"/>
+        </MuiNextLink
+        sx={{ textDecoration: "none", color: 'white' }}
           href="https://twitter.com/BoardGameYC"
           target="_blank"
           rel="noopener noreferrer"
         >
           <img src="/twitter.png" width="50%"/>
-        </MuiNextLink>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
         href="https://opensea.io/collection/boardgameyawnclub"
