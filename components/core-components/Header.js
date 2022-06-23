@@ -35,7 +35,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/home.jpg" width="50%"/>
+          <img src="/home.png" width="50%"/>
         </MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
           href="https://twitter.com/BoardGameYC"
