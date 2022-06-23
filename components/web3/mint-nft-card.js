@@ -12,7 +12,7 @@ const MintNFTCard = ({ description, action, canMint, showNumToMint, setNumToMint
   return (
     <Card sx={{ maxWidth: 400, backgroundColor: "rgba(0, 0, 0, 0.6)"}} >
       <CardContent sx={{color: "#ffffff", textAlign: "center"}}>
-        <Image alt="sample NFT" src='/example.jpg' width={400} height={400}/>
+        <Image alt="sample NFT" src='/example.png' width={400} height={400}/>
         {mintStatus ? <p>Success! Check your wallet in a few minutes.</p> : <p>{description}</p>}
 
       </CardContent>
