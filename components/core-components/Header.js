@@ -36,6 +36,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <img src="/home.png" width="50%"/>
+        </MuiNextLink>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
           href="https://twitter.com/BoardGameYC"
@@ -43,6 +44,7 @@ const Header = () => {
           rel="noopener noreferrer"
         >
           <img src="/twitter.png" width="50%"/>
+        </MuiNextLink>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
         href="https://opensea.io/collection/boardgameyawnclub"
