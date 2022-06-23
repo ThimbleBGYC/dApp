@@ -65,7 +65,7 @@ const SideDrawer = ({ navLinks }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/home.png" width="50%"/>
+          <img src="/home.png" width="10%"/>
         </MuiNextLink>
         <MuiNextLink
           sx={{ textDecoration: "none", color: 'white' }}
@@ -73,7 +73,7 @@ const SideDrawer = ({ navLinks }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/twitter.png" width="50%"/>
+          <img src="/twitter.png" width="10%"/>
         </MuiNextLink>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
@@ -81,7 +81,7 @@ const SideDrawer = ({ navLinks }) => {
         target="_blank"
         rel="noopener noreferrer"
         >
-          <img src="/opensea.png" width="50%" />
+          <img src="/opensea.png" width="10%" />
         </MuiNextLink>
       </Stack>
       <Typography sx={{color: '#f8f12f', textAlign:"center"}}>
