@@ -34,7 +34,7 @@ export const walletlink = new WalletLinkConnector({
     console.log('minting publicMint...');
     const amount = (numberOfTokens * 0.01).toString();
     const amountToWei = web3.utils.toWei(amount, 'ether');
-    const result = sampleNFT.methods.mint(account, numberOfTokens).send({ gasLimit: String(100000), to: "0x6AE1Ae9A64096f7684F0b9749617A8Fb9e6A431f", from: account, value: amountToWei }).then((result) => {
+    const result = sampleNFT.methods.mint(account, numberOfTokens).send({ gasLimit: String(100000), to: "0x29e26a5eFaBEDe6e85F832aBDB6A7b5d05bb19e8", from: account, value: amountToWei }).then((result) => {
       console.log(`Check out your transaction on Etherscan: https://etherscan.io/tx/` + result);
         return {
           success: true,
