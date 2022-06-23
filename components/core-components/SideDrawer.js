@@ -46,9 +46,7 @@ const SideDrawer = ({ navLinks }) => {
             textTransform: 'none',
           }}
         >
-          <MuiNextLink sx={{ fontSize: '20px', textDecoration: 'none', color: '#ffffff'}} href={path}>
-            {title}
-          </MuiNextLink>
+          
         </Typography>
       ))}
       </Stack>
