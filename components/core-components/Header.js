@@ -39,7 +39,7 @@ const Header = () => {
         </MuiNextLink>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
-        href="https://opensea.io/board-game-yawn-club"
+        href="https://opensea.io/collection/boardgameyawnclub"
         target="_blank"
         rel="noopener noreferrer"
         >
