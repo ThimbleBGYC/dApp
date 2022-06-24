@@ -10,7 +10,7 @@ const Navbar = ({ navLinks }) => {
         display: { xs: `none`, md: `flex` },
       }}
     >
-      <Stack direction="row" spacing={4}>
+      <Stack direction="row" spacing={1}>
         {navLinks.map(({ title, path }, i) => (
           <MuiNextLink
             key={`${title}${i}`}
