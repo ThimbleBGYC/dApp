@@ -25,7 +25,7 @@ const Header = () => {
           <Toolbar>
             <Container
               maxWidth="lg"
-              sx={{ display: `flex`, justifyContent: `property`, alignItems: 'flex-end' }}
+              sx={{ display: `flex`, justifyContent: `space-evenly`, alignItems: 'flex-end' }}
             >
               <Stack direction="row" alignItems='left'>
                 <Navbar navLinks={navLinks}/>
