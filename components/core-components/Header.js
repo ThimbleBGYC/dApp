@@ -27,7 +27,7 @@ const Header = () => {
               maxWidth="lg"
               sx={{ display: `flex`, justifyContent: `space-between`, alignItems: 'flex-end' }}
             >
-              <Stack direction="row" alignItems='right'>
+              <Stack direction="row" alignItems='left'>
                 <Navbar navLinks={navLinks}/>
                 <MuiNextLink
           sx={{ textDecoration: "none", color: 'white' }}
