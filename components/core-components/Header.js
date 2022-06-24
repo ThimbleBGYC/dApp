@@ -35,7 +35,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/home.png" width="10%"/>
+          <img src="/home.png" width="15%"/>
         </MuiNextLink>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
@@ -43,7 +43,7 @@ const Header = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/twitter.png" width="10%"/>
+          <img src="/twitter.png" width="15%"/>
         </MuiNextLink>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
@@ -51,7 +51,7 @@ const Header = () => {
         target="_blank"
         rel="noopener noreferrer"
         >
-          <img src="/opensea.png" width="10%" />
+          <img src="/opensea.png" width="15%" />
         </MuiNextLink>
                 <SideDrawer navLinks={navLinks} />
               </Stack>
