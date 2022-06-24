@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-      <img src='logo.png' width={"50%"}/>
+      <img src='logo.png' width={"40%"}/>
       <br/>
-      <img src='MINTING DAPP.png' width={"70%"}/>
+      <img src='MINTING DAPP.png' width={"50%"}/>
         <Button>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
