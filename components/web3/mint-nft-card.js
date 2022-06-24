@@ -17,8 +17,6 @@ const MintNFTCard = ({ description, action, canMint, showNumToMint, setNumToMint
 
       </CardContent>
       <Connect></Connect>
-      <CardActions sx={{justifyContent: "space-evenly", alignItems: "center", flexDirection: "column-reverse"}}>
-      <img src="/lead pipe with blood.png" width={"80%"} alignSelf={"center"}/>
         {showNumToMint &&
            <select defaultValue={0} 
            onChange={handleChange} 
