@@ -14,9 +14,9 @@ const MintNFTCard = ({ description, action, canMint, showNumToMint, setNumToMint
       <CardContent sx={{color: "#ffffff", textAlign: "center"}}>
         <Image alt="sample NFT" src='/example.jpg' width={400} height={400}/>
         {mintStatus ? <p>Success! Check your wallet in a few minutes.</p> : <p>{description}</p>}
-
       </CardContent>
       <Connect></Connect>
+        <CardActions sx={{justifyContent: "space-evenly", alignItems: "center", flexDirection: "column-reverse"}}>
         {showNumToMint &&
            <select defaultValue={0} 
            onChange={handleChange} 
