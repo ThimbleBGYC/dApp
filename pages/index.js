@@ -16,7 +16,7 @@ export default function Home() {
       <main className={styles.main}>
       <img src='logo.png' width={"40%"}/>
       <br/>
-      <img src='MINTING DAPP.png' width={"50%"}/>
+      <img src='MINTING DAPP.png' width={"30%"}/>
         <Button>
         <MuiNextLink
         sx={{ textDecoration: "none", color: 'white' }}
