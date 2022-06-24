@@ -22,7 +22,7 @@ const MintNFTCard = ({ description, action, canMint, showNumToMint, setNumToMint
         {showNumToMint &&
            <select defaultValue={0} 
            onChange={handleChange} 
-           sx={{mx: 3, width: 500 }}
+           sx={{mx: 5, width: 500 }}
            >
               <option value="1">1</option>
               <option value="2">2</option>
