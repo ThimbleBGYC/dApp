@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import Web3 from 'web3';
 
 /** Do not destructure env variables */
-const INFURA_ID =  "a25ddf095d024cce86b3486bd68baf91";
+const INFURA_ID =  "2ba66d8afddf48fcae4de1307510cd59";
 const NFT_ADDRESS = "0x29e26a5eFaBEDe6e85F832aBDB6A7b5d05bb19e8";
 const ENVIRONMENT = "development";
 
