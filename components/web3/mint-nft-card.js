@@ -46,9 +46,6 @@ const MintNFTCard = ({ description, action, canMint, showNumToMint, setNumToMint
               <option value="20">20</option>
             </select> }
         <Button disabled={!canMint} onClick={action} sx={{ alignItems: "center", color: "#ffffff", marginBottom: "10px"}}><img src="/mintbutton.png" width={"200px"}/></Button>
-      :hover {
-    opacity:0.8;
-  }
       </CardActions>
     </Card>
   );
