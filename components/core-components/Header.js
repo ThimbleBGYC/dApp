@@ -14,7 +14,7 @@ import { Stack } from "@mui/material";
 const Offset = styled("div")(({ theme }) => theme.mixins.toolbar);
 
 export const navLinks = [
-  { title: 'Home', path: 'https://boardgameyawnclub.xyz/'},
+  { title: '', path: 'https://boardgameyawnclub.xyz/'},
 ];
 
 const Header = () => {
