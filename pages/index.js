@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <Container >
       <Head >
-        <title>Board Game Yawn Club</title>
+        <title>Board Game Yawn Club - Mint</title>
         <meta name="Board Game Yawn Club" content="Board Game Yawn Club" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
