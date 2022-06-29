@@ -17,7 +17,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <MuiNextLink
-          sx={{ textDecoration: "none", color: 'white' }}
+          sx={{ textDecoration: "none", color: 'white', alignItems: 'center' }}
           href="https://boardgameyawnclub.xyz"
           target="_blank"
           rel="noopener noreferrer"
