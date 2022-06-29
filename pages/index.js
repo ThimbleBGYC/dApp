@@ -14,10 +14,10 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <MuiNextLink
-          sx={{ alignItems: 'center' }}
-          href="https://boardgameyawnclub.xyz"
-          target="_blank"
-          rel="noopener noreferrer"
+        sx={{ textDecoration: "none", color: 'white' }}
+        href="https://boardgameyawnclub.xyz"
+        target="_blank"
+        rel="noopener noreferrer"
         >
       <img src='logo.png' width={"40%"}/>
       </MuiNextLink>
