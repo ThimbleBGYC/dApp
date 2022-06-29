@@ -6,10 +6,7 @@ import MintNFT from '@components/web3/mint-nft';
 
 export default function Home() {
   return (
-    <Container
-      maxWidth="lg"
-      sx={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-end' }}
-    >
+    <Container >
       <Head >
         <title>Board Game Yawn Club - Mint</title>
         <meta name="Board Game Yawn Club" content="Board Game Yawn Club" />
@@ -17,7 +14,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <MuiNextLink
-          sx={{ textDecoration: "none", color: 'white', alignItems: 'center' }}
+          sx={{ alignItems: 'center' }}
           href="https://boardgameyawnclub.xyz"
           target="_blank"
           rel="noopener noreferrer"
