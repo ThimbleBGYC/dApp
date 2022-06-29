@@ -12,9 +12,15 @@ export default function Home() {
         <meta name="Board Game Yawn Club" content="Board Game Yawn Club" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <main className={styles.main}>
+        <MuiNextLink
+          sx={{ textDecoration: "none", color: 'white' }}
+          href="https://boardgameyawnclub.xyz"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
       <img src='logo.png' width={"40%"}/>
+      </MuiNextLink>
       <br/>
       <img src='MINTING DAPP.png' width={"30%"}/>
         <Button>
