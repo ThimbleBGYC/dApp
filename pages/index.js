@@ -6,7 +6,10 @@ import MintNFT from '@components/web3/mint-nft';
 
 export default function Home() {
   return (
-    <Container >
+    <Container
+      maxWidth="lg"
+      sx={{ display: 'flex', justifyContent: 'center', alignItems: 'flex-end' }}
+    >
       <Head >
         <title>Board Game Yawn Club - Mint</title>
         <meta name="Board Game Yawn Club" content="Board Game Yawn Club" />
