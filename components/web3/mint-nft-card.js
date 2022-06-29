@@ -8,22 +8,6 @@ const MintNFTCard = ({ description, action, canMint, showNumToMint, setNumToMint
     const numToMint = parseInt(event.target.value);
     setNumToMint(numToMint);
   };
-  
-  const decrementMintAmount = () => {
-    let newMintAmount = mintAmount - 1;
-    if (newMintAmount < 1) {
-      newMintAmount = 1;
-    }
-    setMintAmount(newMintAmount);
-  };
-
-  const incrementMintAmount = () => {
-    let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 20) {
-      newMintAmount = 20;
-    }
-    setMintAmount(newMintAmount);
-  };
 
   return (
     <Card sx={{ maxWidth: 400, backgroundColor: "rgba(0, 0, 0, 0.6)"}} >
@@ -59,38 +43,6 @@ const MintNFTCard = ({ description, action, canMint, showNumToMint, setNumToMint
               <option value="19">19</option>
               <option value="20">20</option>
             </select> }
-         <s.SpacerMedium />
-                    <s.Container ai={"center"} jc={"center"} fd={"row"}>
-                      <StyledRoundButton
-                        style={{ lineHeight: 0.4 }}
-                        disabled={claimingNft ? 1 : 0}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          decrementMintAmount();
-                        }}
-                      >
-                        -
-                      </StyledRoundButton>
-                      <s.SpacerMedium />
-                      <s.TextDescription
-                        style={{
-                          textAlign: "center",
-                          color: "var(--accent-text)",
-                        }}
-                      >
-                        {mintAmount}
-                      </s.TextDescription>
-                      <s.SpacerMedium />
-                      <StyledRoundButton
-                        disabled={claimingNft ? 1 : 0}
-                        onClick={(e) => {
-                          e.preventDefault();
-                          incrementMintAmount();
-                        }}
-                      >
-                        +
-                      </StyledRoundButton>
-                    </s.Container>
         <Button disabled={!canMint} onClick={action} sx={{ alignItems: "center", color: "#ffffff", marginBottom: "10px"}}><img src="/mintbutton.png" width={"200px"}/></Button>
       </CardActions>
     </Card>
